@@ -13,15 +13,20 @@ function App() {
   return (
     <div className="App">
     <BrowserRouter>
-    <Navbbb/>
-    <Route path="/" exact><Home/></Route>
-      <Route path="/home" exact><Home/></Route>
-      <Route path="/skills" exact><Skills/></Route>
-      <Route path="/contact" exact><Contact/></Route>
-      <Route path="/projects" exact><Projects/></Route>
+      <Navbbb/>
+      <Home/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+    
       </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+// {<Route path="/" exact><Home/></Route>
+// <Route path="/home" exact><Home/></Route>
+// <Route path="/skills" exact><Skills/></Route>
+// <Route path="/contact" exact><Contact/></Route>
+// <Route path="/projects" exact><Projects/></Route>}

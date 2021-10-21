@@ -8,7 +8,7 @@
 body {
   font-family: "Roboto Condensed" sans-serif !important;
   /* background-image: linear-gradient(#f7f8f8, #acbb78) !important; */
-  background-color: rgb(238, 234, 234), 232, 232) !important;
+  background-color: rgb(238, 234, 234) !important;
   /* background-image: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
   background-size: cover;
 }
@@ -67,9 +67,9 @@ nav ul li {
 .home p {
   margin: 0px;
 }
-/* .cont {
+.cont {
   height: 30px;
-} */
+}
 .photo {
   width: 200px;
   height: 200px;
@@ -221,9 +221,13 @@ nav ul li {
 .f1 {
   width: 70%;
   margin: auto !important;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2.8px 2.2px rgba(255, 255, 255, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  /* box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1); */
 
   border: 0.08rem solid grey;
 }
@@ -248,13 +252,15 @@ nav ul li {
 .giticon2:hover {
   color: rgb(24, 119, 242);
 }
-.gmap{
-  
+.gmap {
+  width: 300px;
+  height: 300px;
+  padding-left: 50px;
 }
 
-
-
-
+.home {
+  /* margin-bottom: 150px; */
+}
 
 /* // navbar */
 .navigation__container {
@@ -268,7 +274,8 @@ nav ul li {
 .navitems1 {
   border-bottom: 0.1875rem solid rgb(24, 119, 242);
   margin-right: 5px;
-  font-size:18px
+  font-size: 15px !important;
+  color: white !important;
 }
 .navitems1:hover {
   border-bottom: 0.1875rem solid white;
@@ -285,5 +292,21 @@ nav ul li {
   background-color: var(--font-color-hover);
 }
 .navigationbar {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
+  position: sticky;
+}
+.home,
+.projects,
+.skills,
+.contacts {
+  padding-top: 100px;
+}
+.contacts1 {
+  padding-top: 150px !important;
+}
+.projects {
+  padding-top: 60px;
+}
+.home {
+  padding-top: 150px;
 }

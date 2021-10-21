@@ -27,7 +27,7 @@ export function Contact(){
 
     return <>
     
-        <div className="container mt-5">
+        <div id="contacts" className="c1 container mt-5 mb-5 pb-5 pt-5">
         <div className="row  pb-5 contact ">
         <div className="col-12 col-xl-8 text-center  offset-xl-2 col-md-4 offset-md-4 wann"> <p>Wanna collaborate !</p>
         <span>I would love to work on some exciting projects.So,if you want to 
@@ -36,16 +36,16 @@ export function Contact(){
         </div>
         </div> 
        
-        <div className="row  pb-5 contact">
-            <div className="col-xl-6  ">
-            <div className="row">
-            <div className="col-xl-6 offset-xl-6 gmap ">
-            <GMap/>
-        </div>
+        <div className="row  contact">
+     <div className="col-xl-6  col-4 offset-3 offset-xl-0">
+        <div className="row">
+        <div className="col-xl-6 offset-xl-6 gmap ">
+           <GMap/>
+    </div>
             
-            </div>
-            </div>
-            <div className="col-xl-6 offset-xl-0 col-md-12 text-start box2 ">
+        </div>
+    </div>
+            <div className="col-xl-6 offset-xl-0 col-md-12 text-start box2 col-10 offset-2 ">
             <Slide right><div className="cont cont1 mb-3"><a className="linked " ><FaPhoneSquareAlt className="giticon"/>+91 9834836270</a></div></Slide> 
 
             <Slide right><div style={{

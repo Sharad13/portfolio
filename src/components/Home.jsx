@@ -26,9 +26,9 @@ export function Home(){
            },3000)
     },[])
     return <>
-    <div className="home">
+    <div id="home" className="home mb-5 mt-5 ">
         <div className="container">
-        <div className="row mt-5 pt-5 ">
+        <div className="row  ">
             <div className="col-xl-6 col-md-12 pt-5 ">
             <img className="img-fluid photo" src= "/Photo1.png" alt=""/>
             </div>

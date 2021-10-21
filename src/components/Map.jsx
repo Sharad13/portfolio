@@ -9,6 +9,7 @@ class GMap extends React.Component {
         <Map style={{
             width: '250px',
             height: '200px',
+        
             
           }}
           google={this.props.google}

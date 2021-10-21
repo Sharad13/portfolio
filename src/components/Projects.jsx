@@ -3,7 +3,7 @@ import { AiFillGithub,AiFillLinkedin } from "react-icons/ai";
 export function Projects(){
 
     return<>
-    <div className="container proj">
+    <div id="projects" className=" projects container proj pb-2">
     <div className="row">
          <div className=" col-xl-4 offset-xl-1 col-12 mt-5 mb-5 pbox pt-2 pb-3 ">
          <div className=" bord">

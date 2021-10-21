@@ -1,34 +1,35 @@
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-
+// import {Link} from "react-router-dom"
 const navLinks = [
   {
     name: 'HOME',
-    ref: '/home'
+    ref: '#home'
   },
   {
     name: 'SKILLS',
-    ref: '/skills'
+    ref: '#skills'
   },
   {
     name: 'PROJECTS',
-    ref: '/projects'
+    ref: '#projects'
   },
   {
     name: 'CONTACT',
-    ref: '/contact'
+    ref: '#contacts'
   },
 ]
 function createLinks() {
-  return navLinks.map((e, idx) => (
+  return navLinks.map((e,idx)=>(
     <Nav.Link className="navitems1" key={idx} href={e.ref}>{e.name}</Nav.Link>
   ))
+  
 }
  
 export function Navbbb() {
   return (
-    <div className="navigationbar">
+    <div className="navigationbar mb-5">
       <Navbar className="navigation__container" style={{
         zIndex: '2', position: 'fixed', top: '0', width: '100%'
       }} collapseOnSelect
