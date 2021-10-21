@@ -6,7 +6,7 @@
   text-align: center;
 }
 body {
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed" sans-serif !important;
   /* background-image: linear-gradient(#f7f8f8, #acbb78) !important; */
   background-color: rgb(238, 234, 234), 232, 232) !important;
   /* background-image: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
