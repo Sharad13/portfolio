@@ -15,7 +15,7 @@ export function Skills(){
             </div>
             
         </div>
-        <div className="container-fluid  mb-2 ">
+        <div className="container-fluid  mb-2 pt-5">
         <div className="front  "><h2>Back End Tools</h2></div> 
             <div className="row f1 pt-3 pb-3 mt-2 mb-5">
                 <div className="col-xl-2 offset-xl-2"><img className="logo w-50 img-fluid" src="https://img.icons8.com/color/480/000000/nodejs.png" alt=""/></div>
