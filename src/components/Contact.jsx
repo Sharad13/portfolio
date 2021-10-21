@@ -39,8 +39,8 @@ export function Contact(){
         <div className="row  contact">
      <div className="col-xl-6  col-4 offset-3 offset-xl-0">
         <div className="row">
-        <div className="col-xl-6 offset-xl-6 gmap ">
-           <GMap/>
+        <div className="col-xl-6 offset-xl-6  ">
+        <div ><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=vijay%20nagar%20kalyan+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="http://www.gps.ie/">gps systems</a></iframe></div>
     </div>
             
         </div>
