@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import "./App.css"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {Navbar} from "./components/Navbar.jsx"
+// import {Navbar} from "./components/Navbar.jsx"
 import {BrowserRouter} from "react-router-dom"
 import {Route} from "react-router-dom"
 import {Skills} from "./components/Skill"
