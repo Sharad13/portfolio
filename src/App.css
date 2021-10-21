@@ -7,8 +7,8 @@
 }
 body {
   font-family: "Roboto Condensed" sans-serif;
-  /* background-color: rgb(108, 117, 125) !important; */
-  background-color: white !important;
+  /* background-image: linear-gradient(#f7f8f8, #acbb78) !important; */
+  background-color: rgb(238, 234, 234), 232, 232) !important;
   /* background-image: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
   background-size: cover;
 }
@@ -30,11 +30,14 @@ nav a.nav-link {
 nav ul li {
   text-transform: uppercase;
 }
+.navbar-nav {
+  /* padding-left: 150px !important; */
+}
 .navbar-nav > li > a {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: white !important;
-  border-bottom: 0.1875rem solid #6c757d;
+  border-bottom: 0.1875rem solid rgb(24, 119, 242);
 }
 
 .navbar-nav > li > a.active,
@@ -44,7 +47,7 @@ nav ul li {
 .front {
   font-size: 25px;
   font-weight: 500;
-  color: blueviolet;
+  color: rgb(24, 119, 242) !important;
 }
 .contact p {
   color: black;
@@ -59,14 +62,17 @@ nav ul li {
 }
 .name {
   font-size: 26px;
-  color: rgb(108, 117, 125) !important;
+  color: rgb(24, 119, 242) !important;
 }
 .home p {
   margin: 0px;
 }
+/* .cont {
+  height: 30px;
+} */
 .photo {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 .hello {
   font-size: 25px !important;
@@ -77,23 +83,18 @@ nav ul li {
 .p1 {
   width: 340px !important;
   height: 200px !important;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+    0 100px 80px rgba(0, 0, 0, 0.12); */
 }
 .p1:hover {
   width: 400px !important;
   height: 250px !important;
 }
-.logomongo {
-  width: 200px !important;
-}
-.logomongo:hover {
-  width: 150px !important;
-}
+
 .logo:hover {
-  width: 150px !important;
+  width: 60px !important;
 }
 .git {
   width: 70px !important;
@@ -129,14 +130,14 @@ nav ul li {
   /* display: block !important; */
   /* background-color: black; */
   /* border-bottom: 0.1875rem solid black !important; */
-  margin-left: 800px !important;
+  /* margin-left: 700px !important; */
 }
 @media (min-width: 1000px) {
   .resume {
     /* display: block !important;
     background-color: black;
     border-bottom: 0.1875rem solid black !important; */
-    margin-left: 750px !important;
+    margin-left: 600px !important;
     font-size: 15px !important;
   }
 }
@@ -145,17 +146,17 @@ nav ul li {
     /* display: block !important;
     background-color: black;
     border-bottom: 0.1875rem solid black !important; */
-    margin-left: 0px !important;
+    margin-left: 20px !important;
   }
 }
 .giticon {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  color: black;
+  color: rgb(24, 119, 242);
 }
 .giticon:hover {
-  color: black;
+  color: rgb(24, 119, 242);
   width: 40px;
   height: 40px;
 }
@@ -166,17 +167,18 @@ nav ul li {
 .abt {
   margin-top: 30px !important;
   font-weight: 600;
-  letter-spacing: 0.7px;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
 .abt span {
   color: black;
   font-weight: 700;
 }
 .linked {
-  color: black;
+  color: rgb(24, 119, 242);
 }
 .linked:hover {
-  color: black;
+  color: rgb(24, 119, 242);
 }
 .gitlogowithname {
   width: 120px;
@@ -185,4 +187,102 @@ nav ul li {
 }
 .redirect {
   margin-left: 10px;
+}
+
+.giticon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: rgb(24, 119, 242);
+  margin-right: 15px;
+}
+.linked {
+  color: rgb(24, 119, 242);
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 100px !important;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.navv {
+  background-color: rgb(24, 119, 242);
+}
+.wann p {
+  color: rgb(24, 119, 242);
+}
+.pbox {
+  /* border: 0.0002rem solid black; */
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  /* border: 0.008rem solid grey; */
+}
+.f1 {
+  width: 70%;
+  margin: auto !important;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
+
+  border: 0.08rem solid grey;
+}
+@media (max-width: 500px) {
+  .mapp {
+    padding-left: 50px !important;
+    margin-left: 100px !important;
+  }
+  .box2 {
+    margin-top: 260px !important;
+    padding-left: 50px !important;
+    font-size: 15px;
+  }
+}
+.icondiv {
+  height: 50px;
+}
+.giticon2 {
+  width: 35px;
+  height: 35px;
+}
+.giticon2:hover {
+  color: rgb(24, 119, 242);
+}
+.gmap{
+  
+}
+
+
+
+
+
+/* // navbar */
+.navigation__container {
+  background-color: rgb(24, 119, 242);
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.navitems1 {
+  border-bottom: 0.1875rem solid rgb(24, 119, 242);
+  margin-right: 5px;
+}
+.navitems1:hover {
+  border-bottom: 0.1875rem solid white;
+}
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.links a:hover {
+  background-color: var(--font-color-hover);
+}
+.navigationbar {
+  margin-bottom: 100px;
 }

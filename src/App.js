@@ -8,11 +8,12 @@ import {Skills} from "./components/Skill"
 import {Contact} from "./components/Contact"
 import {Home} from "./components/Home"
 import {Projects} from "./components/Projects"
+import {Navbbb} from "./components/Nav"
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
-    <Navbar/>
+    <Navbbb/>
     <Route path="/" exact><Home/></Route>
       <Route path="/home" exact><Home/></Route>
       <Route path="/skills" exact><Skills/></Route>
