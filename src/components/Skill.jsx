@@ -15,6 +15,7 @@ export function Skills(){
             </div>
             
         </div>
+        <div className="mt-5"></div>
         <div className="container-fluid  mb-2 pt-5">
         <div className="front  "><h2>Back End Tools</h2></div> 
             <div className="row f1 pt-3 pb-3 mt-2 mb-5">
