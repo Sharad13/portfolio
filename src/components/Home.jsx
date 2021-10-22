@@ -44,13 +44,13 @@ export function Home(){
             ]}
             />
             </p>
-            <div className="abt">I build user-friendly websites,love to talk about space related stuff 
-            and eat spicy food,have a good understanding of data structures and algorithm,currently learning <span className="react">@React.js</span> in Masai school.
+            <div className="abt text-left">I build user-friendly websites,have a good understanding of data 
+            structures and algorithm,proficient in <span className="react">@React.js</span> and also love to talk about space related stuff 
+            and eat spicy food.
             </div>
             <div className="icondiv mt-5">
-             <span className="cont "><a className="linked" ><FaPhoneSquareAlt className="giticon2"/></a></span> 
-             <span className="cont   "><a className="linked" href="https://gmail.com"><AiFillMail className="giticon2"/></a></span> 
-             <span className="cont  "><a className="linked" href="https://www.linkedin.com/in/sharad-dethe-4b3746215/"><AiFillLinkedin className="giticon2"/> </a></span>
+             <span className="cont   "><a className="linked" target="_blank" href="https://gmail.com"><AiFillMail className="giticon2"/></a></span> 
+             <span className="cont  "><a className="linked" target="_blank" href="https://www.linkedin.com/in/sharad-dethe-4b3746215/"><AiFillLinkedin className="giticon2"/> </a></span>
             </div>
             </div>
         </div>
