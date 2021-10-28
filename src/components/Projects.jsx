@@ -7,11 +7,11 @@ export function Projects(){
     <div className="row">
          <div className=" col-xl-4 offset-xl-1 col-12 mt-5 mb-5 pbox pt-2 pb-3 ">
          <div className=" bord">
-         <a href="https://sharad13.github.io/CultFit/"><img className="img-fluid p1" src="/cultfithomepage.png" alt=""/></a>
+         <a target="_blank" href="https://sharad13.github.io/CultFit/"><img className="img-fluid p1" src="/cultfithomepage.png" alt=""/></a>
          </div>
          <span className="projname">
-         <a className="linked redirect" href="https://sharad13.github.io/CultFit/">Cult Fit Clone  </a>
-         <a className="linked1" href="https://github.com/Sharad13/CultFitWithNode"><AiFillGithub /> </a>
+         <a className="linked redirect" target="_blank" href="https://sharad13.github.io/CultFit/">Cult Fit Clone  </a>
+         <a className="linked1" target="_blank" href="https://github.com/Sharad13/CultFitWithNode"><AiFillGithub /> </a>
          </span>
          <br/>
          <span className="info ">A web application which helps people to stay healthy
@@ -28,11 +28,11 @@ export function Projects(){
 
          <div className=" col-xl-4 offset-xl-2 pbox col-12 mt-5 mb-5">
          <div className=" bord">
-         <a href="https://sharad13.github.io/CultFit/"><img className="img-fluid p1" src="https://user-images.githubusercontent.com/72969348/135753076-b32dfd7d-545d-42b6-9b0b-37b8cc8f700b.png" alt=""/></a>
+         <a target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><img className="img-fluid p1" src="https://user-images.githubusercontent.com/72969348/135753076-b32dfd7d-545d-42b6-9b0b-37b8cc8f700b.png" alt=""/></a>
          </div>
          <span className="projname">
-         <a className="linked redirect pr-3"  href="https://sharad13.github.io/CultFit/">OLX Clone</a> 
-         <a className="linked1 redirect ml-3"  href="https://sharad13.github.io/CultFit/"><AiFillGithub className=" ml-3"   /></a>
+         <a className="linked redirect pr-3" target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu">OLX Clone</a> 
+         <a className="linked1 redirect ml-3" target="_blank"  href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><AiFillGithub className=" ml-3"   /></a>
          </span>
          <br/>
          <span className="info ">The OLX marketplace is a platform for buying and selling services and goods such 
