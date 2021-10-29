@@ -4,9 +4,7 @@ import { FaFileDownload } from 'react-icons/fa';
 
 export function Navbar(){
 const [skills, setSkills] = useState(false)
-    const handlehome=()=>{
-        
-    }
+   
     return <nav className="navbar navbar-expand-lg navbar-light navv">
     <div className="container-fluid">
         <a className="navbar-brand s" href="#">SHARAD</a>
