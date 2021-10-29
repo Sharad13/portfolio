@@ -40,6 +40,7 @@ export function Projects(){
          <a className="linked1 redirect ml-3" target="_blank"  href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><AiFillGithub className=" ml-3"   /></a>
          </span>
          <br/>
+         <div className="projspan">
          <span className="info " style={{
             color: "black",
             fontSize: "15px",
@@ -48,6 +49,7 @@ export function Projects(){
         
          }}>The OLX marketplace is a platform for buying and selling services and goods such 
          as electronics, fashion items,household goods.</span>
+         </div>
           <br/>
           
           <div className="mt-4">

@@ -59,7 +59,8 @@ nav ul li {
   letter-spacing: 1px;
 }
 
-.contact span {
+.contact span,
+.projspan span {
   font-weight: 600;
   letter-spacing: 0.7px;
 }
