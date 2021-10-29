@@ -1,10 +1,10 @@
 
 
 export function Skills(){
-    return <div id="skills" className="skills" >
+    return <div id="skills" className="skills " >
        <span className="headingskill">SKILLS</span>
         <div  className="container-fluid ">
-            <div  className="front"><span>Front End Tools</span></div>
+            <div  className="front mb-2"><span>Front End Tools</span></div>
             <div  className="row  mb-1 f1 pt-3 pb-3">
                 <div className="logo col-xl-2 col-md-6 offset-xl-2  "><img className="  w-50 img-fluid" src="https://img.icons8.com/color/480/000000/html-5--v1.png" alt=""/><br/>HTML</div>
                 <div className="logo col-xl-2 col-md-6 "><img className=" w-50 img-fluid" src="https://img.icons8.com/color/480/000000/css3.png" alt=""/><br/>CSS</div>

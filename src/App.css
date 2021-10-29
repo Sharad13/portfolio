@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Akronim&family=PT+Serif&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akronim&display=swap");
 
+* {
+  font-family: "Roboto Condensed" sans-serif !important;
+}
 .App {
   text-align: center;
 }
@@ -170,6 +173,7 @@ nav ul li {
   margin-top: 10px !important;
   font-weight: 600;
   font-size: 20px;
+  letter-spacing: normal;
 }
 .abt span {
   color: black;
@@ -305,7 +309,7 @@ nav ul li {
   padding-top: 150px !important;
 }
 .projects {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .home {
   padding-top: 150px;
@@ -319,4 +323,8 @@ nav ul li {
   color: rgb(73, 72, 72);
   font-size: 18px;
   font-weight: 600;
+}
+.skills {
+  padding-top: 110px;
+  padding-bottom: 10px;
 }
