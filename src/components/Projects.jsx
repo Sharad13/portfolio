@@ -20,9 +20,7 @@ export function Projects(){
           <br />
           
           <div className="mt-4">
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/html-5--v1.png" alt=""/>
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/css3.png" alt=""/>
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/javascript.png" alt=""/>
+          <span className="projskills"> HTML  | CSS | JavaScript</span>
           </div>
           </div>
 
@@ -41,11 +39,7 @@ export function Projects(){
           <br/>
           
           <div className="mt-4">
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/react-native.png" alt=""/>
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/css3.png" alt=""/>
-          <img className="logo1 img-fluid" src="https://img.icons8.com/color/480/000000/javascript.png" alt=""/>
-          <img className="logo1 img-fluid" src="https://i.ibb.co/ZVh01dm/rsz-mong2.png" alt=""/>
-         </div>
+          <span className="projskills"> React  | CSS | JavaScript  |  MongoDB</span></div>
          </div>
         
         
