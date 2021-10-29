@@ -9,7 +9,7 @@
   text-align: center;
 }
 body {
-  font-family: "Roboto Condensed" sans-serif !important;
+  font-family: "Cabin", sans-serif !important;
   /* background-image: linear-gradient(#f7f8f8, #acbb78) !important; */
   /* background-color: rgb(234, 237, 238) !important; */
   /* background-image: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
@@ -222,6 +222,7 @@ nav ul li {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12); */
+  box-shadow: 0 4px 8px 0 rgb(192, 189, 189), 0 6px 20px 0 rgb(197, 193, 193);
   border: 0.008rem solid rgb(226, 222, 222);
 }
 .f1 {
