@@ -49,7 +49,7 @@ export function Home(){
             <div className="abt text-left">I build user-friendly websites,have a good understanding of data 
             structures and algorithm,proficient in React.js.I also love to talk about space. My guilty pleasure is gorging on spicy street food.
             </div>
-            <Slide right><div className="icondiv mt-5">
+            <Slide bottom><div className="icondiv mt-5">
              <span className="cont   "><a className="linked" target="_blank" href="https://gmail.com"><AiFillMail className="giticon2"/></a></span>
              <span className="cont  "><a className="linked" target="_blank" href="https://www.linkedin.com/in/sharad-dethe-4b3746215/"><AiFillLinkedin className="giticon2"/> </a></span>
             </div>
