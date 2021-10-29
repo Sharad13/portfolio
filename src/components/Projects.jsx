@@ -15,11 +15,12 @@ export function Projects(){
          <a className="linked1" target="_blank" href="https://github.com/Sharad13/CultFitWithNode"><AiFillGithub /> </a>
          </span>
          <br/>
-         <span className="info " style={{
+         <span className="info" style={{
             color: "black",
             fontSize: "15px",
             fontWeight: "500",
-            letterSpacing: "1px"
+            letterSpacing: "1px",
+        
          }}>A web application which helps people to stay healthy
           and fit within the comfort of their home using live workout sessions.</span>
           <br />
