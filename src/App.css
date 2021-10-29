@@ -236,7 +236,7 @@ nav ul li {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.1); */
 
-  border: 0.00008rem solid rgb(226, 222, 222);
+  /* border: 0.00008rem solid rgb(226, 222, 222); */
 }
 @media (max-width: 500px) {
   .mapp {
@@ -303,7 +303,6 @@ nav ul li {
 }
 .home,
 .projects,
-.skills,
 .contacts {
   padding-top: 100px;
 }
@@ -318,7 +317,7 @@ nav ul li {
 }
 .headingskill {
   color: rgb(24, 119, 242);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 600;
 }
 .projskills {
@@ -327,7 +326,7 @@ nav ul li {
   font-weight: 600;
 }
 .skills {
-  padding-top: 110px;
+  padding-top: 70px;
   padding-bottom: 10px;
 }
 .info {
