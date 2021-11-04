@@ -11,7 +11,7 @@
 body {
   font-family: "Cabin", sans-serif !important;
   /* background-image: linear-gradient(#f7f8f8, #acbb78) !important; */
-  /* background-color: rgb(234, 237, 238) !important; */
+  background-color: rgb(22, 22, 29) !important;
   /* background-image: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"); */
   background-size: cover;
 }
@@ -40,17 +40,17 @@ nav ul li {
   margin-left: 20px;
   margin-right: 20px;
   color: white !important;
-  border-bottom: 0.1875rem solid rgb(24, 119, 242);
+  border-bottom: 0.1875rem solid rgb(22, 25, 32) !important;
 }
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:hover {
-  border-bottom: 0.1875rem solid white !important;
+  border-bottom: 0.1875rem solid rgb(22, 25, 32) !important;
 }
 .front {
   font-size: 22px;
   font-weight: 600;
-  color: black !important;
+  color: rgb(24, 119, 242) !important;
 }
 .contact p {
   color: black;
@@ -63,6 +63,9 @@ nav ul li {
 .projspan span {
   font-weight: 600;
   letter-spacing: 0.7px;
+}
+.projname a {
+  color: rgb(24, 119, 242) !important;
 }
 .name {
   font-size: 26px;
@@ -80,9 +83,11 @@ nav ul li {
 }
 .hello {
   font-size: 25px !important;
+  color: white;
 }
 .iam {
   font-size: 25px !important;
+  color: white;
 }
 .p1 {
   width: 340px !important;
@@ -99,8 +104,13 @@ nav ul li {
 
 .logo {
   /* width: 60px !important; */
-  color: rgb(24, 119, 242) !important;
+  color: white !important;
   font-weight: 600;
+  cursor: pointer;
+}
+.logo:hover {
+  /* width: 60px !important; */
+  color: rgb(24, 119, 242) !important;
 }
 .git {
   width: 70px !important;
@@ -159,7 +169,7 @@ nav ul li {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  color: rgb(24, 119, 242);
+  color: white;
 }
 .giticon:hover {
   color: rgb(24, 119, 242);
@@ -175,13 +185,14 @@ nav ul li {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: normal;
+  color: white;
 }
 .abt span {
   color: black;
   font-weight: 700;
 }
 .linked {
-  color: rgb(24, 119, 242);
+  color: white;
 }
 .linked:hover {
   color: rgb(24, 119, 242);
@@ -199,11 +210,11 @@ nav ul li {
   width: 30px;
   height: 30px;
   cursor: pointer;
-  color: rgb(24, 119, 242);
+  color: white;
   margin-right: 15px;
 }
 .linked {
-  color: rgb(24, 119, 242);
+  color: white;
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 100px !important;
@@ -211,10 +222,13 @@ nav ul li {
   cursor: pointer;
 }
 .navv {
-  background-color: rgb(24, 119, 242);
+  background-color: rgb(22, 25, 32);
 }
 .wann p {
-  color: rgb(24, 119, 242);
+  color: white;
+}
+.wann span {
+  color: white;
 }
 .pbox {
   /* border: 0.0002rem solid black; */
@@ -222,8 +236,8 @@ nav ul li {
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
     0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12); */
-  box-shadow: 0 4px 8px 0 rgb(192, 189, 189), 0 6px 20px 0 rgb(197, 193, 193);
-  border: 0.008rem solid rgb(226, 222, 222);
+  box-shadow: 0 3px 5px 0 rgb(192, 189, 189), 0 3px 5px 0 rgb(197, 193, 193);
+  /* border: 0.008rem solid rgb(226, 222, 222); */
 }
 .f1 {
   width: 70%;
@@ -270,7 +284,7 @@ nav ul li {
 
 /* // navbar */
 .navigation__container {
-  background-color: rgb(24, 119, 242);
+  background-color: rgb(22, 25, 32);
   color: white !important;
 }
 
@@ -278,7 +292,7 @@ nav ul li {
   color: white !important;
 }
 .navitems1 {
-  border-bottom: 0.1875rem solid rgb(24, 119, 242);
+  border-bottom: 0.1875rem solid rgb(22, 25, 32);
   margin-right: 5px;
   font-size: 15px !important;
   color: white !important;
@@ -300,6 +314,7 @@ nav ul li {
 .navigationbar {
   /* margin-bottom: 100px; */
   position: sticky;
+  z-index: 5;
 }
 .home,
 .projects,
@@ -316,7 +331,7 @@ nav ul li {
   padding-top: 150px;
 }
 .headingskill {
-  color: rgb(24, 119, 242);
+  color: white;
   font-size: 30px;
   font-weight: 600;
 }
@@ -330,8 +345,15 @@ nav ul li {
   padding-bottom: 10px;
 }
 .info {
-  color: black !important;
+  color: white !important;
   font-size: 15px !important;
   font-weight: 500 !important;
   letter-spacing: 1px !important;
+}
+.particle {
+  position: absolute;
+  top: 100;
+  width: 1340px;
+  height: 4500px;
+  z-index: -1;
 }

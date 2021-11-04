@@ -39,7 +39,7 @@ export function Navbbb() {
         <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
           <Nav className="links" style={{ margin: '0 1rem' }}>
             {createLinks()}
-            <Nav.Link className="navitems1" key={10} target="_blank" href="./Sharad Dethe-fw10_074.pdf">RESUME</Nav.Link>
+            <Nav.Link className="navitems1" key={10} target="_blank" href="./SHARAD DETHE.pdf">RESUME</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

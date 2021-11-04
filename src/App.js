@@ -9,12 +9,15 @@ import {Contact} from "./components/Contact"
 import {Home} from "./components/Home"
 import {Projects} from "./components/Projects"
 import {Navbbb} from "./components/Nav"
+import ParticleBackground from './components/ParticleBackground';
 function App() {
   return (
     <div className="App">
     <BrowserRouter>
+   
       <Navbbb/>
-      <Home/>
+      <ParticleBackground/>
+      <Home/>   
       <Skills/>
       <Projects/>
       <Contact/>

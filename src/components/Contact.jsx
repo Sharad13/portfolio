@@ -29,7 +29,7 @@ export function Contact(){
     
         <div id="contacts" className="c1 container mt-5 mb-5 pb-5 pt-5">
         <div className="row  pb-5 contact ">
-        <div className="col-12 col-xl-8 text-center  offset-xl-2 col-md-4 offset-md-4 wann"> <p>Wanna collaborate !</p>
+        <div className="col-12 col-xl-8 text-center  offset-xl-2 col-md-4 offset-md-4 wann pt-4"> <p>Wanna collaborate !</p>
         <span>I would love to work on some exciting projects.So,if you want to 
         collaborate with me or want to share what you are working on feel free to 
         contact me - I would love to hear about it! </span>
