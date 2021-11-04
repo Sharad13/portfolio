@@ -10,13 +10,25 @@ import {Home} from "./components/Home"
 import {Projects} from "./components/Projects"
 import {Navbbb} from "./components/Nav"
 import ParticleBackground from './components/ParticleBackground';
+import { useEffect } from 'react';
+import { useState } from 'react';
 function App() {
+const [anim,setAnim]=useState(false)
+
+  useEffect(()=>{
+
+    setInterval(()=>{
+      setAnim(!anim)
+    },1000)
+  
+  },[])
+
   return (
     <div className="App">
     <BrowserRouter>
    
       <Navbbb/>
-      <ParticleBackground/>
+      {anim?<ParticleBackground/>:<></>}
       <Home/>   
       <Skills/>
       <Projects/>
