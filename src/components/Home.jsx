@@ -32,7 +32,7 @@ export function Home(){
         
         <div className="row  ">
             <div className="col-xl-6 col-md-12 pt-5 ">
-            <img className="img-fluid photo" src= "/photo-2.png" alt=""/>
+            <img className="img-fluid photo" src= "/photo-4.png" alt=""/>
             </div>
             <div className="col-xl-6 col-md-12 mt-2 ">
             <p className="hello">Hello!</p>
