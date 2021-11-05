@@ -31,7 +31,7 @@ export function Skills(){
             <div className="row f1 pt-3 pb-3 mt-2 mb-5">
                 <div data-aos="fade-down"  className="logo col-xl-2 offset-xl-2"><img className=" w-50 img-fluid" src="https://img.icons8.com/color/480/000000/nodejs.png" alt=""/><br/>node</div>
                 <div data-aos="fade-down"  className="logo col-xl-2 "><img className=" w-50 img-fluid" src="https://i.ibb.co/9smDM6j/pngegg.png" alt=""/><br/>express</div>
-                <div data-aos="fade-down"  className="logo col-xl-2 "><img className=" w-50 img-fluid" src="https://e7.pngegg.com/pngimages/768/167/png-clipart-mongodb-nosql-document-oriented-database-nosql-icon-leaf-grass-thumbnail.png" alt=""/><br/>MongoDB</div>
+                <div data-aos="fade-down"  className="logo col-xl-2 "><img className=" w-50 img-fluid" src="mongo1.png" alt=""/><br/>MongoDB</div>
                 <div data-aos="fade-down"  className="logo col-xl-2 "><img className=" w-50  img-fluid" src="https://img.icons8.com/fluent/480/000000/mysql-logo.png" alt=""/><br/>MySql</div>
             </div> </div>
     </div>
