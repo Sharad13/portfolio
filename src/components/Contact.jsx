@@ -51,14 +51,14 @@ export function Contact(){
             <Slide right><div style={{
                     display:!show2? "none":"block"
                 }} 
-                className="cont  mb-3"><a className="linked" href="https://mail.google.com/"><MdMail className="giticon"/>dethesharad13@gmail.com</a></div></Slide> 
+                className="cont  mb-3"><a className="linked" target="_blank" href="mailto:dethesharad13@gmail.com"><MdMail className="giticon"/>dethesharad13@gmail.com</a></div></Slide> 
                 <Slide right><div style={{
                     display:!show3? "none":"block"
-                }}  className="cont mb-3"><a className="linked" href="https://www.linkedin.com/in/sharad-dethe-4b3746215/"><AiFillLinkedin className="giticon"/>linkedin.com/in/sharad-dethe-4b3746215/ </a></div></Slide>
+                }}  className="cont mb-3"><a className="linked" target="_blank" href="https://www.linkedin.com/in/sharad-dethe-4b3746215/"><AiFillLinkedin className="giticon"/>linkedin.com/in/sharad-dethe-4b3746215/ </a></div></Slide>
                 
                 <Slide right><div style={{
                     display:!show4? "none":"block"
-                }}  className="cont mb-3"><a className="linked" href="https://github.com/Sharad13"><AiFillGithub className="giticon"/>github.com/Sharad13</a></div></Slide>
+                }}  className="cont mb-3"><a className="linked" target="_blank" href="https://github.com/Sharad13"><AiFillGithub className="giticon"/>github.com/Sharad13</a></div></Slide>
 
             </div>
         </div>
