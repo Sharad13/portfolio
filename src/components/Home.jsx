@@ -11,20 +11,20 @@ export function Home(){
     const [show4,setShow4]=useState(false)
     const [show,setShow]=useState(false)
 
-    useEffect(()=>{
-        setTimeout(()=>{
-            setShow(true)
-        },5000)
-            setTimeout(()=>{
-                setShow2(true)
-            },1000)
-            setTimeout(()=>{
-               setShow3(true)
-           },2000)
-           setTimeout(()=>{
-               setShow4(true)
-           },3000)
-    },[])
+    // useEffect(()=>{
+    //     setTimeout(()=>{
+    //         setShow(true)
+    //     },5000)
+    //         setTimeout(()=>{
+    //             setShow2(true)
+    //         },1000)
+    //         setTimeout(()=>{
+    //            setShow3(true)
+    //        },2000)
+    //        setTimeout(()=>{
+    //            setShow4(true)
+    //        },3000)
+    // },[])
     return <>
     <div id="home" className="home mb-5 mt-5 pb-5">
     

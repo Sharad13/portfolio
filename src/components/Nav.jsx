@@ -35,7 +35,7 @@ export function Navbbb() {
       }} collapseOnSelect
         expand="md">
         <Navbar.Brand style={{ marginLeft: '1rem' }} href="#home"><span className="s">SHARAD</span></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle  aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
           <Nav className="links" style={{ margin: '0 1rem' }}>
             {createLinks()}

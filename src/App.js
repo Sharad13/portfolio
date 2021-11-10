@@ -28,7 +28,7 @@ const [anim,setAnim]=useState(false)
     <BrowserRouter>
    
       <Navbbb/>
-      {anim?<ParticleBackground/>:<></>}
+      {anim?<ParticleBackground />:<></>}
       <Home/>   
       <Skills/>
       <Projects/>
