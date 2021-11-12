@@ -361,6 +361,9 @@ nav ul li {
 @media (max-width: 500px) {
   .particle {
     height: 5100px;
-    width: 300px;
+    width: 370px;
+  }
+  .linked11 {
+    font-size: 13px;
   }
 }
