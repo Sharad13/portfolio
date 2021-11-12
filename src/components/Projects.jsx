@@ -20,7 +20,10 @@ export function Projects(){
          </div>
          <span className="projname">
          <a className="linked redirect" target="_blank" href="https://sharad13.github.io/CultFit/">Cult Fit Clone  </a>
-         <a className="linked1" target="_blank" href="https://github.com/Sharad13/CultFitWithNode"><AiFillGithub /> </a>
+         <a className="linked1" target="_blank" href="https://github.com/Sharad13/CultFitWithNode"><AiFillGithub /></a>
+         <a className="linked1" target="_blank" href="https://sharad13.github.io/CultFit/">
+         <img style={{paddingLeft:"3px"}} src="https://img.icons8.com/windows/32/4a90e2/external-link.png"/>
+         </a>
          </span>
          <br/>
          <span className="info">A web application which helps people to stay healthy
@@ -61,6 +64,9 @@ export function Projects(){
          <span className="projname">
          <a className="linked redirect pr-3" target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu">OLX Clone</a> 
          <a className="linked1 redirect ml-3" target="_blank"  href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><AiFillGithub className=" ml-3"   /></a>
+         <a className="linked1" target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu">
+         <img style={{paddingLeft:"3px"}} src="https://img.icons8.com/windows/32/4a90e2/external-link.png"/>
+         </a>
          </span>
          <br/>
          <span className="info " style={{
