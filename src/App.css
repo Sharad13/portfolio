@@ -367,4 +367,9 @@ nav ul li {
   .linked11 {
     font-size: 13px;
   }
+  .photo {
+    width: 180px;
+    height: 150px;
+    border-radius: 5px;
+  }
 }
