@@ -31,8 +31,8 @@ export function Home(){
         <div className="container">
         
         <div className="row  ">
-            <div className="col-xl-6 col-md-12 pt-5 ">
-            <img className="img-fluid photo" src= "/p4.png" alt=""/>
+            <div className="col-xl-6 col-md-12 pt-3 ">
+            <img className="img-fluid photo" src= "/ph2.png" alt=""/>
             </div>
             <div className="col-xl-6 col-md-12 mt-2 ">
             <p className="hello">Hello!</p>
