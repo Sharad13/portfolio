@@ -354,7 +354,8 @@ nav ul li {
 .particle {
   position: absolute;
   top: 100;
-  width: 1440px;
+  width: 100%;
+  max-width: 1920px;
   height: 2500px;
   z-index: -1;
 }
