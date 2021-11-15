@@ -59,12 +59,12 @@ export function Projects(){
 
          <div data-aos="zoom-in" className=" col-xl-4 offset-xl-2 pbox col-12 mt-3 pt-2 mb-5">
          <div className=" bord">
-         <a target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><img className="img-fluid p1" src="https://user-images.githubusercontent.com/72969348/135753076-b32dfd7d-545d-42b6-9b0b-37b8cc8f700b.png" alt=""/></a>
+         <a target="_blank" href="https://cloneofolx-cybervirus997.vercel.app/"><img className="img-fluid p1" src="https://user-images.githubusercontent.com/72969348/135753076-b32dfd7d-545d-42b6-9b0b-37b8cc8f700b.png" alt=""/></a>
          </div>
          <span className="projname">
-         <a className="linked redirect pr-3" target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu">OLX Clone</a> 
-         <a className="linked1 redirect ml-3" target="_blank"  href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu"><AiFillGithub className=" ml-3"   /></a>
-         <a className="linked1" target="_blank" href="https://www.youtube.com/watch?v=wxFuJ_I0-1M&ab_channel=AkhilKumarAdepu">
+         <a className="linked redirect pr-3" target="_blank" href="https://cloneofolx-cybervirus997.vercel.app/">OLX Clone</a> 
+         <a className="linked1 redirect ml-3" target="_blank"  href="https://github.com/cybervirus997/Unit4-project"><AiFillGithub className=" ml-3"   /></a>
+         <a className="linked1" target="_blank" href="https://cloneofolx-cybervirus997.vercel.app/">
          <img style={{paddingLeft:"3px"}} src="https://img.icons8.com/windows/32/4a90e2/external-link.png"/>
          </a>
          </span>
