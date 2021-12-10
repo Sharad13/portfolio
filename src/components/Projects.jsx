@@ -133,7 +133,7 @@ export function Projects(){
             <img style={{paddingLeft:"3px"}} src="https://img.icons8.com/windows/32/4a90e2/external-link.png"/>
          </a>
          <span>
-         <a className="linked1" target="_blank" href="https://product-hunt-frontend.herokuapp.com/">
+         <a className="linked1" target="_blank" href="https://youtu.be/1l8dV5hirqs">
          <img style={{width:"25px"}} src="https://img.icons8.com/pastel-glyph/64/fa314a/external-link--v1.png"/>
       </a>
       </span>
