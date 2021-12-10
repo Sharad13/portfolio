@@ -356,13 +356,16 @@ nav ul li {
   top: 100;
   width: 100%;
   max-width: 1920px;
-  height: 2500px;
+  height: 3200px;
   z-index: -1;
+}
+.cont12 {
+  padding-top: 50px;
 }
 
 @media (max-width: 500px) {
   .particle {
-    height: 5100px;
+    height: 6100px;
     width: 370px;
   }
   .linked11 {
